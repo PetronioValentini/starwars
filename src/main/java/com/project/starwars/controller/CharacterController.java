@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/characters")
 @Tag(name = "Star Wars Characters", description = "CRUD de personagens de Star Wars")
